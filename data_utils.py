@@ -82,6 +82,8 @@ def make_dir(dir_path='GisData'):
     return dir_path
 
 def configure(config_file="config.json"):
+    make_dir()
+    make_dir("maps")
     with open(config_file,"r") as f:
         config = json.loads(f.read())
         return config["tags"], config["cities"]
