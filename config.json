@@ -1,0 +1,29 @@
+{
+    "tags": {
+      "green_tags": {
+        "leisure": ["garden", "park", "recreation_ground"],
+        "natural": ["scrub", "wood", "heath", "grassland"],
+        "landuse": ["meadow", "forest", "park", "greenfield", "village_green", "grass", "allotments", "nature_reserve", "recreation_ground", "scrub", "heath"]
+      },
+      "shop_tags": {
+        "shop": ["bakery", "beverages", "convenience", "general", "department_store", "kiosk", "mall", "supermarket", "clothes", "shoes", "hairdresser", "garden_centre", "florist", "books", "gift", "pet", "laundry", "toys", "butcher", "cheese", "deli", "farm", "greengrocer", "kiosk", "mall", "boutique", "jewelery", "tailor", "perfumery", "appliance", "hardware", "houseware", "antiques", "bed", "furniture", "interior_decoration", "kitchen", "ligthing", "computer", "elctronics", "hifi", "mobile_phone", "radiotechnics", "telecommunication", "bicycle", "car", "car_repair", "car_parts", "fuel", "lottery", "newsagend", "stationery", "travel_agency"],
+        "amenity": ["marketplace"]
+      },
+      "poi_tags": {
+        "amenity": ["cafe", "restaurant", "kindergarten", "atm", "bank", "social_facility", "language_school", "music_school", "school", "community_centre", "conference_centre", "events_venue", "exhibition_venue", "gambling", "music_venue", "planetarium", "public_bookcase", "post_box", "post_office", "social_centre", "place_of_worship", "recycling", "bench", "toilets", "shelter", "townhall", "heatre", "fountain", "cinema", "arts_centre", "fitness_center", "library"],
+        "tourism": ["artwork", "aquarium", "attraction", "gallery", "museum", "picnic_site", "theme_park", "viewpoint", "zoo"]
+      },
+      "health": {
+        "amenity": ["pharmacy", "hospital", "doctors", "dentist", "clinic", "nursing_home"],
+        "shop": ["hearing_aids", "chemist", "medical_supply", "optician"],
+        "social_facility": ["nursing_home", "assisted_living", "day_care"],
+        "healthcare": true
+      },
+      "publicTransport_tags": {
+        "highway": ["bus_stop", "platform"],
+        "railway": ["station", "halt", "tram_stop"]
+      }
+    },
+    "cities": ["Havelland, Germany", "Berlin, Germany"]
+}
+  
