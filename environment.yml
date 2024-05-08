@@ -1,0 +1,26 @@
+name: mobile
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - osmnx
+  - networkx
+  - jupyter
+  - ipykernel
+  - descartes
+  - numpy
+  - gpxpy
+  - similaritymeasures
+  - seawater
+  - mplleaflet
+  - pyproj
+  - pandas
+  - shapely
+  - xlsxwriter
+  - scipy
+  - matplotlib==3.3.2
+  - movingpandas
+  - statsmodels
+  - seaborn
+  - xlrd
+  - openpyxl
